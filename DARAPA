@@ -1,0 +1,5 @@
+secs = 60
+time_in_secs = int(input("Please enter the amount of time in seconds: "))
+mins = time_in_secs // 60  # Use time_in_secs here
+remaining_secs = time_in_secs % 60  # Use time_in_secs here
+print(f"The total amount of time is {mins} minutes and {remaining_secs} seconds.")
